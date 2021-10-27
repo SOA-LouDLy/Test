@@ -4,7 +4,7 @@
 module Jobify
   # Model for Project
   class Job
-    def initialize(_job)
+    def initialize(job)
       @job = job
     end
 
