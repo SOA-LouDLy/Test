@@ -1,13 +1,10 @@
 # frozen_string_literal: true
 
-require_relative 'contributor'
 
 module Jobify
   # Model for Project
   class Job
-    def initialize(_skils, location, job)
-      @skils = skills
-      @location = location
+    def initialize(_job)
       @job = job
     end
 
