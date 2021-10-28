@@ -10,10 +10,9 @@ module Jobify
       @id = id
     end
 
-    # def job(skill, location, contracttype = 'none', contractperiod = 'none')
     def job(skill, location)
-      job = Request.new(@id, skill, location).job
-      Job.new(job)
+      jobs_data = Request.new(@id, skill, location).job
+      jobs_data.jobs.map { |job| Job.new(job) }
     end
   end
 
@@ -40,7 +39,7 @@ module Jobify
         sort: 'date'
         # contracttype: 'p',
         # contractperiod: 'p'
-      ).jobs.first
+      )
     end
   end
 end
