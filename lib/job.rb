@@ -27,5 +27,10 @@ module Jobify
     def company
       @job.company
     end
+
+    def locations
+      @job.locations
+    end
+
   end
 end
