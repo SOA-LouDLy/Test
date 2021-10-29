@@ -28,7 +28,7 @@ module Jobify
     end
 
     def job
-      cj_api_client = Careerjet::APIClient.new(locale: :en_US)
+      cj_api_client = Careerjet::APIClient.new(locale: :en_GB)
       cj_api_client.search(
         keywords: @skill,
         location: @location,
