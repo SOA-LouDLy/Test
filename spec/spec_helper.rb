@@ -15,6 +15,6 @@ LOCATION = 'london'
 CONFIG = YAML.safe_load(File.read('config/secrets.yml'))
 JOB_TOKEN = CONFIG['API_KEY']
 
-GOOD = YAML.safe_load(File.read('lib/job_results.yml'), permitted_classes: [Careerjet::Mash, Hashie::Array])
+GOOD = YAML.safe_load(File.read('spec/fixtures/job_results.yml'), permitted_classes: [Careerjet::Mash, Hashie::Array])
 CASSETTES_FOLDER = 'spec/fixtures/cassettes'
 CASSETTE_FILE = 'job_api'
