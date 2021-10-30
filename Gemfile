@@ -3,7 +3,6 @@
 source 'https://rubygems.org'
 
 # Networking
-
 gem 'http', '~> 5.0'
 
 # Testing
@@ -21,4 +20,5 @@ gem 'flog'
 gem 'reek'
 gem 'rubocop'
 
-gem 'careerjet-api-client', require: 'careerjet/api_client'
+# Job API
+gem 'careerjet-api-client'
