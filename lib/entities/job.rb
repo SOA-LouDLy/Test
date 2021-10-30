@@ -1,1 +1,18 @@
-# frozen_string_literal: true
+# frozen_string_literal: false
+
+require 'dry-types'
+require 'dry-struct'
+
+module Jobify
+  module CareerJet
+    class Job < Dry::Struct
+      include Dry.Types
+      attribute :date, Strict::String
+      attribute :url, Strict::String
+      attribute :title, Strict::String
+      attribute :description, Strict::String
+      attribute :company, Strict::String
+      attribute :locations, Strict::String
+    end
+  end
+end
