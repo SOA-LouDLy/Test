@@ -2,8 +2,11 @@
 
 source 'https://rubygems.org'
 
-# Networking
+# Validation
+gem 'dry-struct', '~> 1.4'
+gem 'dry-types', '~> 1.5'
 
+# Networking
 gem 'http', '~> 5.0'
 
 # Testing
@@ -21,4 +24,4 @@ gem 'flog'
 gem 'reek'
 gem 'rubocop'
 
-gem 'careerjet-api-client', require: 'careerjet/api_client'
+gem 'careerjet-api-client'

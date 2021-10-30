@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-equire 'rake/testtask'
+require 'rake/testtask'
 
 CODE = 'lib/'
 
