@@ -1,0 +1,18 @@
+.container
+  .row
+    h2
+      span.job.company
+        = job.company 
+      span.job.title style="padding-left:20px"
+        = job.title
+  .container
+    .row
+      .col-lg-1.col-md-2.col-sm-2
+        span.job.description 
+            = job.description 
+      .col-lg-11.col-md-10.col-sm-6
+        span.job.date
+          = job.date
+        .col-lg-11.col-md-10.col-sm-6
+        span.job.locations
+          = job.locations
