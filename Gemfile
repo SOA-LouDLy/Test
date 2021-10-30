@@ -16,4 +16,4 @@ gem 'flog'
 gem 'reek'
 gem 'rubocop'
 
-gem 'careerjet-api-client', require: 'careerjet/api_client'
+gem 'careerjet-api-client'
