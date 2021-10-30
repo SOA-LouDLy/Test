@@ -11,12 +11,12 @@ require 'webmock'
 
 require_relative '../init'
 
-
 SKILL = 'ruby'
 LOCATION = 'london'
 CONFIG = YAML.safe_load(File.read('config/secrets.yml'))
 JOB_TOKEN = CONFIG['API_KEY']
-CORRECT = YAML.safe_load(File.read('spec/fixtures/job_results.yml'), permitted_classes: [Careerjet::Mash, Hashie::Array])
+CORRECT = YAML.safe_load(File.read('spec/fixtures/job_results.yml'),
+                         permitted_classes: [Careerjet::Mash, Hashie::Array])
 
 CASSETTES_FOLDER = 'spec/fixtures/cassettes'
 CASSETTE_FILE = 'job_api'

@@ -11,7 +11,7 @@ module Jobify
       end
 
       def get_jobs(skill, location)
-        data = @gateway.data(skill, location)
+        data = @gateway.job(skill, location)
         build_entity(data)
       end
 
