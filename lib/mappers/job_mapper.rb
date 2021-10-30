@@ -12,7 +12,7 @@ module Jobify
 
       def get_jobs(skill, location)
         data = @gateway.job(skill, location)
-        build_entity(data)
+        data.jobs.map { |job| build_entity(job) }
       end
 
       def build_entity(data)

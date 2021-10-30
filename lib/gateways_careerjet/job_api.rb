@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-require_relative 'job'
 require 'careerjet/api_client'
 
 module Jobify
@@ -12,8 +11,7 @@ module Jobify
       end
 
       def job(skill, location)
-        jobs_data = Request.new(@id, skill, location).job
-        jobs_data.jobs.map { |job| Job.new(job) }
+        Request.new(@id, skill, location).job
       end
     end
 

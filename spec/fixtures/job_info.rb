@@ -11,8 +11,7 @@ job_results = cj_api_client.search(
   user_ip: '11.22.33.44',
   user_agent: 'Mozilla/5.0 (X11; Linux x86_64; rv:31.0) Gecko/20100101 Firefox/31.0',
   url: 'http://www.example.com/jobsearch?q=ruby&l=london',
-  sort:'date'
+  sort: 'date'
 )
 
-
-File.write('spec/fixtures/job_results.yml', job_results.to_yaml)
+File.write('spec/fixtures/carrerjet_results.yml', job_results.to_yaml)
