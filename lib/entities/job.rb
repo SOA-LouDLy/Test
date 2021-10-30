@@ -4,7 +4,7 @@ require 'dry-types'
 require 'dry-struct'
 
 module Jobify
-  module CareerJet
+  module Entity
     class Job < Dry::Struct
       include Dry.Types
       attribute :date, Strict::String
