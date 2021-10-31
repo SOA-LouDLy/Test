@@ -5,6 +5,7 @@ require 'dry-struct'
 
 module Jobify
   module Entity
+    # Domain entity for any job
     class Job < Dry::Struct
       include Dry.Types
       attribute :date,          Strict::String
