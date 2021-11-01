@@ -1,28 +1,60 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/loudwigeodice/Desktop/data_mapper/init.rb": {
+      "/Users/danielthierrymarcelin/Documents/School Related 😎/NYCU-related/3rd Semester/SOA/jobify/mvc/init.rb": {
         "lines": [
           null,
           null,
           1,
+          2,
+          null
+        ]
+      },
+      "/Users/danielthierrymarcelin/Documents/School Related 😎/NYCU-related/3rd Semester/SOA/jobify/mvc/config/init.rb": {
+        "lines": [
+          null,
           null,
           1
         ]
       },
-      "/Users/loudwigeodice/Desktop/data_mapper/lib/init.rb": {
+      "/Users/danielthierrymarcelin/Documents/School Related 😎/NYCU-related/3rd Semester/SOA/jobify/mvc/config/environment.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/danielthierrymarcelin/Documents/School Related 😎/NYCU-related/3rd Semester/SOA/jobify/mvc/app/init.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          2,
+          null
+        ]
+      },
+      "/Users/danielthierrymarcelin/Documents/School Related 😎/NYCU-related/3rd Semester/SOA/jobify/mvc/app/models/init.rb": {
         "lines": [
           null,
           null,
           1,
           null,
           4,
-          4,
+          3,
           null,
           null
         ]
       },
-      "/Users/loudwigeodice/Desktop/data_mapper/lib/entities/job.rb": {
+      "/Users/danielthierrymarcelin/Documents/School Related 😎/NYCU-related/3rd Semester/SOA/jobify/mvc/app/models/entities/job.rb": {
         "lines": [
           null,
           null,
@@ -31,6 +63,7 @@
           null,
           1,
           1,
+          null,
           1,
           1,
           1,
@@ -44,28 +77,7 @@
           null
         ]
       },
-      "/Users/loudwigeodice/Desktop/data_mapper/lib/gateways_affinda/affinda_api.rb": {
-        "lines": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/loudwigeodice/Desktop/data_mapper/lib/gateways_careerjet/job_api.rb": {
+      "/Users/danielthierrymarcelin/Documents/School Related 😎/NYCU-related/3rd Semester/SOA/jobify/mvc/app/models/gateways_careerjet/job_api.rb": {
         "lines": [
           null,
           null,
@@ -109,7 +121,7 @@
           null
         ]
       },
-      "/Users/loudwigeodice/Desktop/data_mapper/lib/mappers/job_mapper.rb": {
+      "/Users/danielthierrymarcelin/Documents/School Related 😎/NYCU-related/3rd Semester/SOA/jobify/mvc/app/models/mappers/job_mapper.rb": {
         "lines": [
           null,
           null,
@@ -177,8 +189,69 @@
           null,
           null
         ]
+      },
+      "/Users/danielthierrymarcelin/Documents/School Related 😎/NYCU-related/3rd Semester/SOA/jobify/mvc/app/controllers/init.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          2,
+          null
+        ]
+      },
+      "/Users/danielthierrymarcelin/Documents/School Related 😎/NYCU-related/3rd Semester/SOA/jobify/mvc/app/controllers/app.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          0,
+          null,
+          null,
+          0,
+          0,
+          null,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          null,
+          0,
+          null,
+          null,
+          null,
+          0,
+          null,
+          0,
+          0,
+          null,
+          null,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1635585164
+    "timestamp": 1635736641
   }
 }
